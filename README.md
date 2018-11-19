@@ -33,6 +33,6 @@ $ npm run server
 #run client
 $ npm run client
 
-#run client in public mdoe
+#run client in public mode
 $ npm run client-public
 ```
