@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+composer.lock
+.idea
+package-lock.json
+/config.js
+temp/*
+._*
+*.msgPack
+*.db
+*.backup*

@@ -1,0 +1,43 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --watch",
+    "dev": "webpack-dev-server --mode development",
+    "dev-public": "webpack-dev-server --host 0.0.0.0 --port 8080 --disable-host-check --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bastl34/pixi-websocket-webpack-boilerplate.git"
+  },
+  "author": "Bastian Karge",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/Bastl34/pixi-websocket-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Bastl34/pixi-websocket-webpack-boilerplate#readme",
+  "dependencies": {
+    "collisions": "github:Bastl34/Collisions",
+    "cpy-cli": "^2.0.0",
+    "msgpack-lite": "^0.1.26"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "extracted-loader": "^1.0.7",
+    "node-sass": "^4.9.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.11.0",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

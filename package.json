@@ -1,0 +1,17 @@
+{
+  "name": "pixi-websocket-webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "server": "cd server && npm i && npm run dev",
+    "server-public": "cd server && npm i && npm run start",
+    "client-public": "cd client && npm i && npm run dev-public",
+    "client": "cd client && npm i && npm run dev"
+  },
+  "author": "Bastian Karge",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/Bastl34/pixi-websocket-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Bastl34/pixi-websocket-webpack-boilerplate#readme"
+}

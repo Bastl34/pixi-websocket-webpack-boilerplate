@@ -1,0 +1,26 @@
+{
+    "name": "server",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js --watch . --watch ../source --ignore */source/client.js",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Bastl34/pixi-websocket-webpack-boilerplate.git"
+    },
+    "author": "bastian Karge",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+        "url": "https://github.com/Bastl34/pixi-websocket-webpack-boilerplate/issues"
+    },
+    "homepage": "https://github.com/Bastl34/pixi-websocket-webpack-boilerplate#readme",
+    "dependencies": {
+        "collisions": "github:Bastl34/Collisions",
+        "microtime": "^2.1.8",
+        "uws": "10.148.1",
+        "msgpack-lite": "^0.1.26"
+    }
+}
