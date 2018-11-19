@@ -152,33 +152,33 @@ let Helper =
         return Math.random() * (max - min) + min;
     },
 
-	getRandomIndexByProbability(probabilitys)
-	{
-		if (!probabilitys || probabilitys.length == 0)
+    getRandomIndexByProbability(probabilitys)
+    {
+        if (!probabilitys || probabilitys.length == 0)
             return null;
 
         if (probabilitys.length == 1)
             return 0;
 
-		let totalProbability = 0.0;
+        let totalProbability = 0.0;
         probabilitys.forEach((p)  =>
         {
             totalProbability += p;
         });
 
-		let p = Math.random() * totalProbability;
+        let p = Math.random() * totalProbability;
 
-		let current = 0;
+        let current = 0;
 
-		while ((p -= probabilitys[current]) > 0)
-		{
-			++current;
+        while ((p -= probabilitys[current]) > 0)
+        {
+            ++current;
 
-			if (current >= probabilitys.length)
-				return probabilitys.length - 1;
-		}
+            if (current >= probabilitys.length)
+                return probabilitys.length - 1;
+        }
 
-		return current;
+        return current;
     },
 
     getRandomPosInCircle(circlePos, circleRadius, offset)
