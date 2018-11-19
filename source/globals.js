@@ -10,7 +10,7 @@ let globals =
     SERVER: '../server/',
     SERVER_MODULES: '../server/node_modules',
 
-    SERVER_PORT: 8081,
+    SERVER_PORT: 12345,
 
     CLIENT_FPS: 60,
     SERVER_FPS: 30,
