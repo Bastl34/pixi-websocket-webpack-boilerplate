@@ -6,11 +6,12 @@ The "Net-Code" is based on broadcast packages without interpolation or validatio
 
 ## Based on
 
-* PIXI.JS
-* uWS
-* Webpack
-* SCSS
-* Node.JS
+* PIXI.JS (http://www.pixijs.com)
+* uWS (https://github.com/uNetworking/uWebSockets)
+* Webpack (https://webpack.js.org)
+* SCSS (https://sass-lang.com)
+* Node.JS (https://nodejs.org/en/)
+* FPSMeter (http://darsa.in/fpsmeter/)
 
 ## Directory Structure
 
